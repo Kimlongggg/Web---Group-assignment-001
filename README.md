@@ -1,1 +1,2 @@
-- test push
+- Edit detail.html to however you like (or leave it alone and comment if you're satisfied with the website)
+- You can adjust color and size here and there but do not make major changes

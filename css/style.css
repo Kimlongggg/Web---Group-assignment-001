@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-size: larger;
+    margin-bottom: 3vh;
+}
+
+.container-right {
+    text-align: right;
+    margin-right: 3vh;
+}
+
+/* Style the carousel container */
+.carousel {
+    width: 80vw;  /* Set width to 80% of viewport width */
+    margin: 0 auto;  /* Center the carousel */
+}
+
+/* Style the images */
+.carousel-inner {
+    height: 80vh;  /* Set height to 30% of viewport height */
+}
+
+.carousel-inner img {
+    height: 100%;  /* Make image fill the container height */
+    width: 100%;  /* Make image fill the container width */
+    object-fit: contain;
+}
+
+.card {
+    display: inline-flex;
+    width: 18vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-p-4 {
+    margin-top: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+/* Register page */
+.card-body {
+    align-items: center;
+    text-align: left;
+}
+
+

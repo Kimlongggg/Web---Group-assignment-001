@@ -12,3 +12,5 @@ Warning: Delete the text after the task is done in this README.md
     - Edit the buttons text to something else maybe 'Checkout' or smth
     - Leave the footer alone
 
+- Theme:
+    - You can change the theme in index.html to match with detail.html if you want

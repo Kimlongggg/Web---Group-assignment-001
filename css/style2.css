@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: white !important;
+}
+
+:root {
+    --neon-pink: #ff6ec7;
+    --neon-pink-dark: #ff45b8;
+    --neon-pink-light: #ff97d7;
+}
+
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 110, 199, 0.05);
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 110, 199, 0.4);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--neon-pink);
+}
+
+.stats-box {
+    background: rgba(255, 110, 199, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.highlight {
+    color: var(--neon-pink);
+    font-weight: bold;
+}
+
+.banner {
+    background: linear-gradient(135deg, var(--neon-pink), var(--neon-pink-light));
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 30px rgba(255, 110, 199, 0.3);
+}
+
+.btn-primary {
+    background-color: var(--neon-pink);
+    border-color: var(--neon-pink);
+}
+
+.btn-primary:hover {
+    background-color: var(--neon-pink-dark);
+    border-color: var(--neon-pink-dark);
+    box-shadow: 0 0 15px rgba(255, 110, 199, 0.5);
+}
+
+.card-title {
+    color: var(--neon-pink-dark) !important;
+}
+
+.card {
+    background-color: rgba(26, 26, 26, 0.9);
+    border: 1px solid rgba(255, 110, 199, 0.2);
+}
+
+.card-text {
+    color: #e0e0e0;
+}
+
+.card-body {
+    color: white !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, .lead {
+    color: white !important;
+}

@@ -6,12 +6,13 @@
     <title>Document</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
     
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img src="image/cadt-logo.png" alt="cadt-logo" width="220px" height="30px">
+        <img src="image/cadt-logo.png" alt="cadt-logo" width="370px" height="50px">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> 
@@ -27,21 +28,25 @@
               <a class="nav-link" href="detail.html">Pricing</a>
             </li>
           </ul>
-          <div class="container-right">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+        </div>
+        <div class="container-right">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="vline"></div>
           <!-- Add Login and Register Links -->
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto" id="log">
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <!-- <a class="nav-link" href="login.html">Login</a> -->
+              <a class="login" href="login.html"><button class="btn btn-outline-success" type="submit">Login</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="register.html">Register</a>
+              <a class="login" href="register.html"><button class="btn btn-outline-success" type="submit">Register</button></a>
             </li>
           </ul>
+        </div>
+          
         </div>
       </div>
       
@@ -151,7 +156,7 @@
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
-          Group: Heng Kimlong, Has Vathana, Keosovann Monyneath, An sophanith
+          Group: Heng Kimlong, Has Sereivathana, Keosovann Monyneath, An sophanith
         </p>
       </section>
 

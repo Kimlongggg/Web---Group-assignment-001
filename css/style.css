@@ -8,10 +8,22 @@ body {
 }
 
 .container-right {
-    text-align: right;
+    display: flex;
+    height: 60px;
+    align-items: center;
     margin-right: 3vh;
+    column-gap: 20px;
 }
 
+#log{
+    column-gap: 10px;
+}
+
+.vline{
+    height: 30px;
+    width: 2px;
+    background-color: gray;
+}
 
 .carousel {
     width: 80vw;  
